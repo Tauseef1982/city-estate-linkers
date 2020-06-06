@@ -1,0 +1,67 @@
+.navbar {
+    background-color:   #eef11f !important
+
+    ;
+}
+.nav-link{
+    color:red !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #d7cb08 !important
+    ;
+}
+.sale {
+    color:red;
+    background-color:#eef11f ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+
+}
+.two{
+     margin-top: 50px;
+}
+.forsale{
+        margin-top: 80px;
+}
+.rent {
+    color:red;
+    background-color:#eef11f ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 80px;  
+}
+footer {
+    text-align: center;
+    background-color:#eef11f ;
+    color:red;
+    margin-top: 50px;
+    height: 70px ;
+    padding-top: 20px;
+    
+}
+h3  {
+    color: red;
+}
+p {
+    color: red;
+}
+
+@media only screen and (max-width: 900px){
+    .navbar-nav{
+        float: left;
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width: 600px)  {
+        footer  {
+            text-align: left;
+        }
+    } 
